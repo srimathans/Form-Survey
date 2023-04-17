@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    background-color: rgba(238, 127, 219, 0.301);
+    font-size: 1.8rem;
+}
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3rem;
+    border: 3px solid;
+    border-color: blueviolet;
+    padding-left: 1rem;
+    background-color: bisque;
+}
+h1{
+    background-color: rgb(226, 43, 195);
+    text-align: center;
+    font-size: 3rem;
+}
+.btn {
+    width: 15%;
+    margin-left: 40%;
+    font-size: 2rem;
+}
+.box {
+    width: 35%;
+    font-size: 1.8rem;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.pw-condition {
+    color: blue;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+}
+
+#message {
+    margin-top: 0.4rem;
+    font-size: 1.6rem;
+    width: 60%;
+}
+
+.error {
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+}
+.role {
+    font-size: 1.8rem;
+}

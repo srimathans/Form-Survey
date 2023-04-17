@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <div class="container">  
+    <form class="my-form">
+      <label for="name">1. Name*</label>
+      <input type="text" class="box" id="name" placeholder="Your Name"/>
+      <span class="tick-mark-name"></span>
+      <span class="error" id="name-error"></span><br />
+
+      <label for="email">2. Email*</label>
+      <input type="email" class="box" id="email" placeholder="Your Email ID" />
+      <span class="tick-mark-email"></span>
+      <span class="error" id="email-error"></span><br />
+
+      <label for="password">3. Password*</label>
+      <input type="password" class="box" id="password" placeholder="Your Password" />
+      <span class="tick-mark-pw"></span>
+      <span class="error" id="pw-error"></span><br />
+      <p class="pw-condition">Password should contain atleast 8 characters, 1 lowercase letter, 1 uppercase letter & 1 number</p>
+
+      <label for="mobile">6. Your Mobile Number*</label>
+      <input type="tel" class="box" id="mobile" placeholder="Your Mobile Number" />
+      <span class="tick-mark-mobile"></span>
+      <span class="error" id="mobile-error"></span><br>
+
+      <label for="birthdate">4. Your Birth Date</label>
+      <input type="date" id="birthdate" /><br />
+
+      <label for="age" class="box">5. Age</label>
+      <input type="text" class="box" id="age" placeholder="Your Age" /><br>
+      
+      <label for="web">7. Enter your URL</label>
+      <input type="url" class="box" id="web" placeholder="Web Address" /><br>
+
+      <label for="message">8. Your message</label><br>
+      <textarea name="message" id="message" rows="8"></textarea><br>
+
+      <label for="role">9. What is your role?</label>
+      <select name="role" class="role">
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+      </select><br />
+
+      <label>10. Gender</label><br />
+      <input type="radio" name="gender" value="male" />
+      <label for="male">Male</label><br />
+
+      <input type="radio" name="gender" value="female" />
+      <label for="female">Female</label><br />
+
+      <label>11. Which of the social media accounts you are using?</label><br />
+      <input type="checkbox" name="media" value="Facebook" />
+      <label for="fb">Facebook</label><br />
+
+      <input type="checkbox" name="media" value="Instagram" />
+      <label for="insta">Instagram</label><br />
+
+      <input type="checkbox" name="media" value="Twitter" />
+      <label for="twitter">Twitter</label><br />
+
+      <input type="checkbox" name="media" value="Linkedin" />
+      <label for="linkedn">Linkedn</label><br />
+
+      <input type="checkbox" name="media" value="Whatsapp" />
+      <label for="wp">Whatsapp</label><br />
+
+      <button class ="btn">Submit</button>
+      <p style="color: blue;">* indicates required</p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

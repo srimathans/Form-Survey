@@ -1,0 +1,35 @@
+/**************************/
+/* BELOW 640px */
+/**************************/
+
+@media (max-width: 40em) {
+    body {
+        font-size: 0.9rem;
+    }
+    .container {
+        line-height: 1.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .btn {
+        font-size: 0.8rem;
+    }
+    .box {
+        font-size: 0.9rem;
+    }
+    .pw-condition {
+        font-size: 0.7rem;
+        margin-left: 0.8rem;
+    }
+    #message {
+        font-size: 0.8rem;
+    }
+    .error {
+        font-size: 0.75rem;
+        margin-left: 0.15rem;
+    }
+    .role {
+        font-size: 0.8rem;
+    }
+}
